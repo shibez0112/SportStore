@@ -1,0 +1,8 @@
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.csproj.AssemblyReference.cache
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.GeneratedMSBuildEditorConfig.editorconfig
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.AssemblyInfoInputs.cache
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.AssemblyInfo.cs
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.csproj.CoreCompileInputs.cache
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.MvcApplicationPartsAssemblyInfo.cache
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.RazorAssemblyInfo.cache
+F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.RazorAssemblyInfo.cs
