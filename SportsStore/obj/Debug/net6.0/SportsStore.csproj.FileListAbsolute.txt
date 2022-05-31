@@ -6,7 +6,6 @@ F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.csproj.CoreCompi
 F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.MvcApplicationPartsAssemblyInfo.cache
 F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.RazorAssemblyInfo.cache
 F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.RazorAssemblyInfo.cs
-F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\appsettings.Development.json
 F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\appsettings.json
 F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\global.json
 F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\SportsStore.exe
@@ -59,3 +58,4 @@ F:\NET Learn\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.csproj.CopyCompl
 F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\libman.json
 F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\SportsStore.staticwebassets.runtime.json
 F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\NET Learn\SportsSln\SportsStore\bin\Debug\net6.0\appsettings.Production.json
