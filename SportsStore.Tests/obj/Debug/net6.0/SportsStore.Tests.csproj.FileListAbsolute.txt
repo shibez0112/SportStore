@@ -141,3 +141,4 @@ F:\NET Learn\SportsSln\SportsStore.Tests\bin\Debug\net6.0\runtimes\win\lib\netst
 F:\NET Learn\SportsSln\SportsStore.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 F:\NET Learn\SportsSln\SportsStore.Tests\bin\Debug\net6.0\libman.json
 F:\NET Learn\SportsSln\SportsStore.Tests\bin\Debug\net6.0\SportsStore.staticwebassets.runtime.json
+F:\NET Learn\SportsSln\SportsStore.Tests\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

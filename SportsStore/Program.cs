@@ -1,11 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using SportsStore.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<StoreDbContext>(opts => {
+builder.Services.AddDbContext<StoreDbContext>(opts =>
+{
     opts.UseSqlServer(
     builder.Configuration["ConnectionStrings:SportsStoreConnection"]);
 });
@@ -21,6 +23,12 @@ builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddServerSideBlazor();
 
+builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+options.UseSqlServer(
+builder.Configuration["ConnectionStrings:IdentityConnection"]));
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+.AddEntityFrameworkStores<AppIdentityDbContext>();
+
 
 var app = builder.Build();
 
@@ -29,6 +37,8 @@ var app = builder.Build();
 app.UseStaticFiles();
 app.UseSession();
 
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute("catpage",
     "{category}/Page{productPage:int}",
@@ -42,13 +52,15 @@ app.MapControllerRoute("category", "{category}",
 
 app.MapControllerRoute("pagination",
     "Products/Page{productPage}",
-    new { Controller = "Home", action = "Index", productPage = 1});
+    new { Controller = "Home", action = "Index", productPage = 1 });
 
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
 app.MapBlazorHub();
 app.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
-SeedData.EnsurePopulated(app); 
+SeedData.EnsurePopulated(app);
+IdentitySeedData.EnsurePopulated(app);
+
 
 app.Run();
